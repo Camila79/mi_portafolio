@@ -1,4 +1,4 @@
-mport streamlit as st
+import streamlit as st
 import yfinance as yf
 import json
 import os
@@ -59,4 +59,5 @@ for ticker, quantity in portfolio.items():
 
 st.markdown("---")
 st.subheader(f"💰 Valor Total: ${total_value:.2f}")
+
 
