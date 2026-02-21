@@ -1,4 +1,4 @@
- import streamlit as st
+import streamlit as st
 import yfinance as yf
 import json
 import os
@@ -84,4 +84,5 @@ for ticker, data in portfolio.items():
 st.markdown("---")
 st.subheader(f"💰 Valor Total: ${total_value:.2f}")
 st.subheader(f"📊 Ganancia/Pérdida Total: ${total_gain:.2f}")
+
 
